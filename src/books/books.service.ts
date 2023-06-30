@@ -8,16 +8,18 @@ export class BooksService {
 
   getAllBooks = (): Book[] => {
 
-    return [{ id: "1", title: "firstBook", description: "book details", dicount: "10%", price: 200 },
-    { id: "2", title: "secondBook", description: "book details", dicount: "20%", price: 300 },
-    { id: "3", title: "thirdBook", description: "book details", dicount: "40%", price: 400 },
-    { id: "4", title: "4thBook", description: "book details", dicount: "40%", price: 400 },
-    { id: "5", title: "secondBook", description: "book details", dicount: "20%", price: 300 },
-    { id: "6", title: "thirdBook", description: "book details", dicount: "40%", price: 400 },
-    { id: "7", title: "4thBook", description: "book details", dicount: "40%", price: 400 },
-    { id: "8", title: "secondBook", description: "book details", dicount: "20%", price: 300 },
-    { id: "9", title: "thirdBook", description: "book details", dicount: "40%", price: 400 },
-    { id: "10", title: "4thBook", description: "book details", dicount: "40%", price: 400 },
+    return
+    [
+      { id: "1", title: "레이블라우스", description: "book details", dicount: "10%", price: '57,600' },
+      { id: "2", title: "레이블라우스", description: "book details", dicount: "10%", price: '57,600' },
+      { id: "3", title: "레이블라우스", description: "book details", dicount: "40%", price: '57,600' },
+      { id: "4", title: "레이블라우스", description: "book details", dicount: "40%", price: '57,600' },
+      { id: "5", title: "레이블라우스", description: "book details", dicount: "20%", price: '57,600' },
+      { id: "6", title: "레이블라우스", description: "book details", dicount: "40%", price: '57,600' },
+      { id: "7", title: "레이블라우스", description: "book details", dicount: "40%", price: '57,600' },
+      { id: "8", title: "레이블라우스", description: "book details", dicount: "20%", price: '57,600' },
+      { id: "9", title: "레이블라우스", description: "book details", dicount: "40%", price: '57,600' },
+      { id: "10", title: "레이블라우스", description: "book details", dicount: "40%", price: '57,600' },
     ]
   };
 
