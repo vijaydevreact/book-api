@@ -15,5 +15,8 @@ export class Book {
   dicount: string;
 
   @Column()
-  price: number;
+  price: string;
+
+  @Column()
+  src: string;
 }
